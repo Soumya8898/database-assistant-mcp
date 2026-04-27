@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "database-assistant": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/ABSOLUTE/PATH/TO/database-assistant-mcp",
+        "run",
+        "db-assistant"
+      ],
+      "env": {
+        "DB_ASSISTANT_DB_TYPE": "sqlite",
+        "DB_ASSISTANT_DB_PATH": "/ABSOLUTE/PATH/TO/database.db"
+      }
+    }
+  }
+}
