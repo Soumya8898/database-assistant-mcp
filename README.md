@@ -146,7 +146,3 @@ src/db_assistant/
 - **aiosqlite** / **asyncpg** — async database drivers
 - **pydantic-settings** — environment-based configuration
 - **pytest + pytest-asyncio** — test suite
-
-## License
-
-MIT
